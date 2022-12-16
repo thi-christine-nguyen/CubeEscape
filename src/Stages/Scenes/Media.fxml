@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Stages.Controllers.ControllerMedia">
+   <children>
+      <MediaView fx:id="mediaView" fitHeight="800.0" fitWidth="1280.0" onMouseClicked="#createSkipButton" />
+   </children>
+</AnchorPane>

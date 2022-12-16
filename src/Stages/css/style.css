@@ -1,0 +1,22 @@
+
+#root
+{
+	-fx-background-color: lightgrey;
+}
+
+
+
+#trou
+{
+	-fx-background-color: white;
+	-fx-border-color: beige;
+	-fx-font-size: 26;
+}
+
+#case
+{
+	-fx-background-color: lightskyblue;
+    -fx-border-color: beige;
+	-fx-font-size: 26;
+}
+

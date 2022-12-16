@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Stages.Controllers.ControllerPlafond">
+   <Label fx:id="horaire" layoutX="334.0" layoutY="273.0" prefHeight="36.0" prefWidth="107.0" text="8035" textFill="#00a5ff">
+      <font>
+         <Font size="32.0" />
+      </font></Label>
+
+   <VBox fx:id="inventoryVisual" layoutX="1125.0" layoutY="69.0" prefHeight="678.0" prefWidth="92.0" spacing="6.0">
+      <padding>
+         <Insets left="6.0" top="3.0" />
+      </padding>
+      <ImageView fitHeight="99.0" fitWidth="86.0" onMouseClicked="#objetSelectionne" pickOnBounds="true" preserveRatio="true">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="85.0" layoutY="40.0" onMouseClicked="#objetSelectionne" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <VBox.margin>
+            <Insets top="11.0" />
+         </VBox.margin>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="85.0" onMouseClicked="#objetSelectionne" pickOnBounds="true" preserveRatio="true">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="85.0" onMouseClicked="#objetSelectionne" pickOnBounds="true" preserveRatio="true">
+         <VBox.margin>
+            <Insets top="11.0" />
+         </VBox.margin>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="85.0" onMouseClicked="#objetSelectionne" pickOnBounds="true" preserveRatio="true">
+         <VBox.margin>
+            <Insets top="8.0" />
+         </VBox.margin>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="85.0" onMouseClicked="#objetSelectionne" pickOnBounds="true" preserveRatio="true">
+         <VBox.margin>
+            <Insets top="7.0" />
+         </VBox.margin>
+      </ImageView>
+   </VBox>
+
+   <children>
+
+      <ImageView fitHeight="800.0" fitWidth="1280.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/Plafond/Plafond.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="228.0" fitWidth="152.0" layoutX="513.0" layoutY="306.0" pickOnBounds="true" rotate="135.0" scaleX="1.25" scaleY="1.65">
+         <image>
+            <Image url="@../Images/Plafond/lampePlafond.png" />
+         </image></ImageView>
+      <ImageView fx:id="gauche" fitHeight="45.0" fitWidth="50.0" layoutX="140.0" layoutY="420.0" onMouseClicked="#switchScene" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../Images/Fleche.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="haut" fitHeight="45.0" fitWidth="50.0" layoutX="589.0" layoutY="23.0" onMouseClicked="#switchScene" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@../Images/Fleche.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="droite" fitHeight="45.0" fitWidth="50.0" layoutX="960.0" layoutY="420.0" onMouseClicked="#switchScene" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/Fleche.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bas" fitHeight="45.0" fitWidth="50.0" layoutX="566.0" layoutY="646.0" onMouseClicked="#switchScene" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../Images/Fleche.png" />
+         </image>
+      </ImageView>
+   </children>
+   <Button fx:id="retournemenu" layoutX="115.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#switchScene" style="-fx-background-color: black; -fx-cursor: hand;" stylesheets="@../css/General.css" text="Revenir au menu" textFill="WHITE">
+      <font>
+         <Font name="Gabriola" size="72.0" />
+      </font>
+   </Button>
+</AnchorPane>

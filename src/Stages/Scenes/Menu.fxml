@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Stages.Controllers.ControllerMenu">
+   <ImageView fitHeight="800.0" fitWidth="1280.0">
+      <Image url="@../Images/Menu/FondEcranMenu.jpg" />
+   </ImageView>
+   <Button layoutX="535.0" layoutY="353.0" mnemonicParsing="false" onMouseClicked="#accederAuJeu" prefHeight="79.0" prefWidth="209.0" style="-fx-background-color: black; -fx-cursor: hand;" stylesheets="@../css/General.css" text="JOUER " textFill="WHITE">
+      <font>
+         <Font name="Gabriola" size="64.0" />
+      </font>
+   </Button>
+   <Button layoutX="535.0" layoutY="589.0" mnemonicParsing="false" onMouseClicked="#quitterLeJeu" prefHeight="79.0" prefWidth="209.0" style="-fx-background-color: black; -fx-cursor: hand;" stylesheets="@../css/General.css" text="QUITTER" textFill="WHITE">
+      <font>
+         <Font name="Gabriola" size="64.0" />
+      </font>
+   </Button>
+   <Label alignment="CENTER" layoutY="77.0" prefHeight="56.0" prefWidth="1280.0" stylesheets="@../css/General.css" text="CubeEscape - The Hospital" textFill="WHITE">
+      <font>
+         <Font name="Gabriola" size="72.0" />
+      </font>
+   </Label>
+   <Button layoutX="536.0" layoutY="469.0" mnemonicParsing="false" onMouseClicked="#recommencerJeu" prefHeight="79.0" prefWidth="209.0" style="-fx-background-color: black; -fx-cursor: hand;" stylesheets="@../css/General.css" text="RECOMMENCER " textFill="WHITE">
+      <font>
+         <Font name="Gabriola" size="64.0" />
+      </font>
+   </Button>
+
+</AnchorPane>

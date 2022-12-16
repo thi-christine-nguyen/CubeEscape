@@ -1,0 +1,8 @@
+stylo
+gelHydroalcoolique
+boutOrdonnance
+badge
+cleeCoffre
+telephone
+enter
+validerCoffre

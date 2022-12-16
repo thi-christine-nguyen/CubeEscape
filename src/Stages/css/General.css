@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Xanh+Mono&display=swap');
+
+.label {
+    -fx-font-family : 'Xanh Mono';
+
+    }
+
+#textArea {
+
+    -fx-font-family :'Xanh Mono';
+    -fx-text-align : center;
+
+}
+
+.content{
+    -fx-background-color : transparent;
+}
+
+.viewport {
+    -fx-background-color : transparent;
+}
+
+.button{
+    -fx-font-family : 'Xanh Mono';
+    -fx-font-size : 20px;
+    -fx-background-radius : 10px;
+
+
+}

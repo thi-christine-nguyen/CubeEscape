@@ -1,0 +1,5 @@
+OrdonnanceReconstituée
+reconstituer
+ajouterBoutOrdonnanceH
+ajouterBoutOrdonnanceB
+codeTele
