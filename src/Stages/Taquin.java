@@ -108,7 +108,7 @@ public class Taquin {
         }
 
         //mélanger le taquin
-        for(k = 0; k < 1; k++) //nombre de mélange
+        for(k = 0; k < 5; k++) //nombre de mélange
         {
             if(a==0 && b==0) //coin haut gauche (2 choix de mouvements)
             {

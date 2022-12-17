@@ -18,8 +18,10 @@ public class Main extends Application {
     }
     @Override
     public void start(Stage primaryStage) throws Exception{
+        System.out.println(getClass().getResource("Scenes/Media.fxml"));
 
         Parent fenetre = FXMLLoader.load(getClass().getResource("Scenes/Media.fxml"));
+
         primaryStage.setTitle("Game Cube - The Hospital");
         primaryStage.setScene(new Scene(fenetre, 1280, 800));
         primaryStage.show();
